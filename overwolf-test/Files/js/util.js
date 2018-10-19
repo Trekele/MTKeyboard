@@ -1,4 +1,4 @@
-function gameLaunched(gameInfoResult) {
+export function gameLaunched(gameInfoResult) {
     if (!gameInfoResult) {
         return false;
     }
@@ -25,7 +25,7 @@ function gameLaunched(gameInfoResult) {
     return true;
 }
 
-function gameRunning(gameInfo) {
+export function gameRunning(gameInfo) {
     console.log("gameRunning: " + gameInfo);
     if (!gameInfo) {
         return false;
@@ -44,7 +44,7 @@ function gameRunning(gameInfo) {
     return true;
 }
 
-function setFeatures(requestedFeatures) {
+export function setFeatures(requestedFeatures) {
     console.log("In setFeatures");
     overwolf.games.events.setRequiredFeatures(requestedFeatures, function (
         info
