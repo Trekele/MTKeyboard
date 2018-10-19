@@ -5,6 +5,7 @@ let MTKeyboardPlugin = null;
 const REQUESTED_FEATURES = ["stats", "roster", "match", "me"];
 
 let state = {};
+import * as util from './util';
 
 function registerEvents() {
   // general events errors
@@ -126,9 +127,9 @@ async function handleGameInfoUpdated(res) {
       }
     });
   });
-  if (gameLaunched(res)) {
+  if (util.gameLaunched(res)) {
     registerEvents();
-    setTimeout(setFeatures(REQUESTED_FEATURES), 1000);
+    setTimeout(util.setFeatures(REQUESTED_FEATURES), 1000);
   }
 }
 
@@ -150,9 +151,9 @@ async function handleGetRunningGameinfo(res) {
       });
     });
   }
-  if (gameRunning(res)) {
+  if (util.gameRunning(res)) {
     registerEvents();
-    setTimeout(setFeatures(REQUESTED_FEATURES), 1000);
+    setTimeout(util.setFeatures(REQUESTED_FEATURES), 1000);
   }
 }
 

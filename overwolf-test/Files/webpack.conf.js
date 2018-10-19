@@ -3,7 +3,12 @@ const htmlWebpackPlugin = require('html-webpack-plugin')
 require("babel-register");
 
 const config = {
-  entry: './js/main.js',
+  entry: ['./js/app.js'],
+  mode: 'development',
+  devtool: 'source-map',
+  optimization: {
+    minimize: false
+  },
   output: {
     path: path.join(__dirname, './build'),
     filename: 'bundle.js',

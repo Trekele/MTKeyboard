@@ -8,9 +8,9 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 
     <title>Document</title>
   </head>
@@ -21,19 +21,19 @@
         <div class="window-controls-group">
             <button class="window-control" onclick="showSupport()">
               <svg class="svg-icon-fill">
-                  <use xlink:href="assets/svg/sprite.svg#window-control_support"></use>
+                  <use xlink:href="../assets/svg/sprite.svg#window-control_support"></use>
               </svg>
             </button>
 
             <button class="window-control">
               <svg class="svg-icon-fill">
-                  <use xlink:href="assets/svg/sprite.svg#window-control_settings"></use>
+                  <use xlink:href="../assets/svg/sprite.svg#window-control_settings"></use>
               </svg>
             </button>
 
             <button class="window-control" onclick="minimize()">
               <svg class="svg-icon-fill">
-                  <use xlink:href="assets/svg/sprite.svg#window-control_minimize"></use>
+                  <use xlink:href="../assets/svg/sprite.svg#window-control_minimize"></use>
               </svg>
             </button>
 
@@ -41,17 +41,17 @@
                 <input type="checkbox" class="maximize-restore-selector toggle-icons" checked="checked"></input>
 
               <svg class="svg-icon-fill svg-icon-restore">
-                  <use xlink:href="assets/svg/sprite.svg#window-control_restore"></use>
+                  <use xlink:href="../assets/svg/sprite.svg#window-control_restore"></use>
               </svg>
 
               <svg class="svg-icon-fill svg-icon-maximize">
-                  <use xlink:href="assets/svg/sprite.svg#window-control_maximize"></use>
+                  <use xlink:href="../assets/svg/sprite.svg#window-control_maximize"></use>
               </svg>
             </button>
 
             <button class="window-control window-control-close" onclick="closeWindow();">
               <svg class="svg-icon-fill">
-                  <use xlink:href="assets/svg/sprite.svg#window-control_close"></use>
+                  <use xlink:href="../assets/svg/sprite.svg#window-control_close"></use>
               </svg>
             </button>
           </div>
@@ -70,6 +70,7 @@
     <div class="resize corner bottom-left" onmousedown="dragResize('BottomLeft');"></div>
     <div class="resize corner bottom-right" onmousedown="dragResize('BottomRight');"></div>
 
+    <script src="../windows.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
