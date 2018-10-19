@@ -21,8 +21,8 @@ function registerEvents() {
 
 async function handleError(info) {
   console.log("handleError", JSON.stringify(info, null, 2));
-  await new Promise(function(resolve, reject) {
-    MTKeyboardPlugin.handleError(JSON.stringify(info), function(result) {
+  await new Promise(function (resolve, reject) {
+    MTKeyboardPlugin.handleError(JSON.stringify(info), function (result) {
       console.log("MTKeyboardPlugin.handleError", result);
       if (result.success) {
         resolve(true);
@@ -36,8 +36,8 @@ async function handleError(info) {
 
 async function handleInfoUpdates2(info) {
   console.log("handleInfoUpdates2", JSON.stringify(info, null, 2));
-  await new Promise(function(resolve, reject) {
-    MTKeyboardPlugin.handleInfoUpdates2(JSON.stringify(info), function(result) {
+  await new Promise(function (resolve, reject) {
+    MTKeyboardPlugin.handleInfoUpdates2(JSON.stringify(info), function (result) {
       console.log("MTKeyboardPlugin.handleInfoUpdates2", result);
       if (result.success) {
         resolve(true);
@@ -99,8 +99,8 @@ async function handleInfoUpdates2(info) {
 
 async function handleNewEvents(info) {
   console.log("handleNewEvents", JSON.stringify(info, null, 2));
-  await new Promise(function(resolve, reject) {
-    MTKeyboardPlugin.handleNewEvents(JSON.stringify(info), function(result) {
+  await new Promise(function (resolve, reject) {
+    MTKeyboardPlugin.handleNewEvents(JSON.stringify(info), function (result) {
       console.log("MTKeyboardPlugin.handleNewEvents", result);
       if (result.success) {
         resolve(true);
@@ -114,8 +114,8 @@ async function handleNewEvents(info) {
 
 async function handleGameInfoUpdated(res) {
   console.log("handleGameInfoUpdated: " + JSON.stringify(res, null, 2));
-  await new Promise(function(resolve, reject) {
-    MTKeyboardPlugin.handleGameInfoUpdated(JSON.stringify(res), function(
+  await new Promise(function (resolve, reject) {
+    MTKeyboardPlugin.handleGameInfoUpdated(JSON.stringify(res), function (
       result
     ) {
       console.log("MTKeyboardPlugin.handleGameInfoUpdated", result);
@@ -134,11 +134,11 @@ async function handleGameInfoUpdated(res) {
 
 async function handleGetRunningGameinfo(res) {
   console.log("handleGetRunningGameinfo: " + JSON.stringify(res, null, 2));
-  if (res == null){
+  if (res == null) {
 
   } else {
-    await new Promise(function(resolve, reject) {
-      MTKeyboardPlugin.handleGetRunningGameinfo(JSON.stringify(res), function(
+    await new Promise(function (resolve, reject) {
+      MTKeyboardPlugin.handleGetRunningGameinfo(JSON.stringify(res), function (
         result
       ) {
         console.log("MTKeyboardPlugin.handleGetRunningGameinfo", result);
@@ -162,7 +162,7 @@ function print(body) {
 
 async function initPlugins() {
   console.log("initPlugins()");
-  return new Promise(function(resolve, reject) {
+  return new Promise(function (resolve, reject) {
     console.log("Promise(");
     overwolf.extensions.current.getManifest(result => {
       console.log("manifest", result);
@@ -173,7 +173,7 @@ async function initPlugins() {
         MTKeyboardPlugin = result.object;
         MTKeyboardPlugin.debug.addListener(print);
         console.log("Initialize");
-        MTKeyboardPlugin.Initialize(function(result) {
+        MTKeyboardPlugin.Initialize(function (result) {
           console.log("init result", result);
           if (result == "failed to initialize") {
             reject();
@@ -187,8 +187,8 @@ async function initPlugins() {
 }
 
 async function setColor(color) {
-  return new Promise(function(resolve, reject) {
-    MTKeyboardPlugin.setColor("Green", function(result) {
+  return new Promise(function (resolve, reject) {
+    MTKeyboardPlugin.setColor("Green", function (result) {
       console.log("result", result);
       if (result) {
         resolve(true);
@@ -200,12 +200,12 @@ async function setColor(color) {
 }
 
 async function updateScore(score) {
-  return new Promise(function(resolve, reject) {
+  return new Promise(function (resolve, reject) {
     let body = {
       score: score
     };
     console.log("MTKeyboardPlugin", MTKeyboardPlugin);
-    MTKeyboardPlugin.setScore(body, function(result) {
+    MTKeyboardPlugin.setScore(body, function (result) {
       console.log("result", result);
       if (result) {
         resolve(true);
