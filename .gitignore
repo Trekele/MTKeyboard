@@ -1,2 +1,9 @@
 node_modules/
 build/
+
+# Build results
+MTKeyboardPlugin/MTKeyboardPlugin/[Bb]in/
+MTKeyboardPlugin/MTKeyboardPlugin/[Oo]bj/
+MTKeyboardPlugin/Tester/[Bb]in/
+MTKeyboardPlugin/Tester/[Oo]bj/
+MTKeyboardPlugin/.vs/
