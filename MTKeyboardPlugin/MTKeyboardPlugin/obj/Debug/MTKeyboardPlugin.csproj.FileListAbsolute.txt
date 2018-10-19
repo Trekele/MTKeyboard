@@ -1,0 +1,36 @@
+C:\Users\Matt\source\repos\MTKeyboardPlugin\MTKeyboardPlugin\bin\Debug\MTKeyboardPlugin.dll
+C:\Users\Matt\source\repos\MTKeyboardPlugin\MTKeyboardPlugin\bin\Debug\MTKeyboardPlugin.pdb
+C:\Users\Matt\source\repos\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.dll
+C:\Users\Matt\source\repos\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.pdb
+C:\Users\Matt\source\repos\MTKeyboardPlugin\MTKeyboardPlugin\bin\Debug\CUE.NET.dll
+C:\Users\Matt\source\repos\MTKeyboardPlugin\MTKeyboardPlugin\bin\Debug\CUE.NET.xml
+C:\Users\Matt\source\repos\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.csproj.CopyComplete
+C:\Users\Trekele\Downloads\Telegram Desktop\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\bin\Debug\MTKeyboardPlugin.dll
+C:\Users\Trekele\Downloads\Telegram Desktop\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\bin\Debug\MTKeyboardPlugin.pdb
+C:\Users\Trekele\Downloads\Telegram Desktop\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\bin\Debug\CUE.NET.dll
+C:\Users\Trekele\Downloads\Telegram Desktop\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\bin\Debug\CUE.NET.xml
+C:\Users\Trekele\Downloads\Telegram Desktop\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.csprojAssemblyReference.cache
+C:\Users\Trekele\Downloads\Telegram Desktop\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.csproj.CoreCompileInputs.cache
+C:\Users\Trekele\Downloads\Telegram Desktop\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.csproj.CopyComplete
+C:\Users\Trekele\Downloads\Telegram Desktop\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.dll
+C:\Users\Trekele\Downloads\Telegram Desktop\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.pdb
+C:\Users\Trekele\Downloads\Telegram Desktop\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Trekele\Downloads\Telegram Desktop\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Matt\Downloads\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\bin\Debug\MTKeyboardPlugin.dll
+C:\Users\Matt\Downloads\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\bin\Debug\MTKeyboardPlugin.pdb
+C:\Users\Matt\Downloads\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\bin\Debug\CUE.NET.dll
+C:\Users\Matt\Downloads\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Matt\Downloads\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\bin\Debug\CUE.NET.xml
+C:\Users\Matt\Downloads\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Matt\Downloads\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.csproj.CoreCompileInputs.cache
+C:\Users\Matt\Downloads\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.csproj.CopyComplete
+C:\Users\Matt\Downloads\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.dll
+C:\Users\Matt\Downloads\MTKeyboardPlugin\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.pdb
+C:\Users\Trekele\Documents\Dev\Overwolf Cheese\overwolf-test\MTKeyboardPlugin.dll
+C:\Users\Trekele\Documents\Dev\Overwolf Cheese\overwolf-test\MTKeyboardPlugin.pdb
+C:\Users\Trekele\Documents\Dev\Overwolf Cheese\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.csproj.CoreCompileInputs.cache
+C:\Users\Trekele\Documents\Dev\Overwolf Cheese\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.csproj.CopyComplete
+C:\Users\Trekele\Documents\Dev\Overwolf Cheese\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.dll
+C:\Users\Trekele\Documents\Dev\Overwolf Cheese\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.pdb
+C:\Users\Trekele\Documents\Dev\Overwolf Cheese\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.csprojAssemblyReference.cache

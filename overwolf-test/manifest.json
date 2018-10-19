@@ -1,0 +1,69 @@
+{
+  "manifest_version": 1,
+  "type": "WebApp",
+  "meta": {
+    "name": "Demo App",
+    "version": "1.0.0",
+    "minimum-overwolf-version": "0.98.0.0",
+    "author": "Developer Name",
+    "icon": "IconMouseOver.png",
+    "icon_gray": "IconMouseNormal.png",
+    "description": "Demo App"
+  },
+  "permissions": ["Extensions", "FileSystem", "Media"],
+  "data": {
+    "game_events": [10798],
+    "launch_events": [{
+      "event": "GameLaunch",
+      "event_data": {
+        "game_ids": [10798]
+      },
+      "start_minimized": false
+    }],
+    "start_window": "MainWindow",
+    "windows": {
+      "MainWindow": {
+        "file": "Files/index.html",
+        "transparent": true,
+        "resizable": true,
+        "use_os_windowing": true,
+        "size": {
+          "width": 700,
+          "height": 400
+        },
+        "min_size": {
+          "width": 400,
+          "height": 400
+        }
+      },
+      "SubWindow": {
+        "file": "Files/subwindow.html",
+        "transparent": true,
+        "resizable": false,
+        "size": {
+          "width": 400,
+          "height": 300
+        },
+        "in_game_only": true
+      }
+    },
+    "extra-objects": {
+      "mt-keyboard-plugin": {
+        "file": "MTKeyboardPlugin.dll",
+        "class": "MTKeyboardPlugin.Plugin"
+      },
+      "CueSDK": {
+        "file": "CUE.NET.dll",
+        "class": "CUE.NET.CueSDK"
+      },
+      "CueSDK2015x64": {
+        "file": "x64/CUESDK_2015.dll",
+        "class": "CUE.NET.CUESDK_2015"
+      },
+      "CueSDK2015x86": {
+        "file": "x86/CUESDK_2015.dll",
+        "class": "CUE.NET.CUESDK_2015"
+      }
+    }
+  }
+}

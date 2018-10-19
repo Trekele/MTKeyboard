@@ -1,0 +1,5 @@
+C:\Users\Matt\source\repos\MTKeyboardPlugin\MTKeyboardPlugin\bin\x86\Debug\MTKeyboardPlugin.dll
+C:\Users\Matt\source\repos\MTKeyboardPlugin\MTKeyboardPlugin\bin\x86\Debug\MTKeyboardPlugin.pdb
+C:\Users\Matt\source\repos\MTKeyboardPlugin\MTKeyboardPlugin\obj\x86\Debug\MTKeyboardPlugin.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\MTKeyboardPlugin\MTKeyboardPlugin\obj\x86\Debug\MTKeyboardPlugin.dll
+C:\Users\Matt\source\repos\MTKeyboardPlugin\MTKeyboardPlugin\obj\x86\Debug\MTKeyboardPlugin.pdb
