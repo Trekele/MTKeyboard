@@ -13,7 +13,7 @@ namespace MTKeyboardPlugin
 {
     class Corsair
     {
-        private bool runWithoutKeyboard;
+        public bool runWithoutKeyboard;
         private CorsairKeyboard keyboard;
 
         public Corsair(bool runWithoutKeyboard = false)

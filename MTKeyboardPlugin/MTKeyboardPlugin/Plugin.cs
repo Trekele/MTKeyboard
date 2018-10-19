@@ -13,22 +13,24 @@ using CUE.NET.Gradients;
 using CUE.NET.Effects;
 using Newtonsoft.Json;
 
+
 namespace MTKeyboardPlugin
 {
-    public class Plugin
+    public partial class Plugin
     {
 
         public event Action<object> debug;
-        private Corsair keyboard;
 
         public void print(string body)
         {
+            Console.WriteLine(body);
             if (debug == null)
             {
                 return;
             }
 
-            Task.Run(() => {
+            Task.Run(() =>
+            {
                 debug(body);
             });
         }
@@ -53,6 +55,9 @@ namespace MTKeyboardPlugin
 
         public void handleInfoUpdates2(string json, Action<object> callback)
         {
+            InfoUpdate.plugin = this;
+            RocketLeagueLib.plugin = this;
+            InfoUpdate infoUpdate = JsonConvert.DeserializeObject<InfoUpdate>(json);
             Result result = new Result();
             try
             {
@@ -128,7 +133,7 @@ namespace MTKeyboardPlugin
             try
             {
                 print("setColor");
-                keyboard.SetColor('W', "Green");
+                //keyboard.SetColor('W', "Green");
                 if (callback == null)
                 {
                     return;
@@ -140,7 +145,6 @@ namespace MTKeyboardPlugin
                 Task.Run(() => callback(false));
             }
         }
-
 
         //public void setScore(string json, Action<object> callback)
         //{
@@ -166,7 +170,14 @@ namespace MTKeyboardPlugin
 
         public void Initialize(Action<object> callback, bool runWithoutKeyboard = false)
         {
-            keyboard = new Corsair(runWithoutKeyboard);
+            if (!CueSDK.IsInitialized)
+            {
+                CueSDK.Initialize();
+            }
+
+            RocketLeagueLib.keyboard = CueSDK.KeyboardSDK;
+            RocketLeagueLib.keyboard.Brush = (SolidColorBrush)Color.Transparent;
+            RocketLeagueLib.runWithoutKeyboard = runWithoutKeyboard;
 
             if (callback == null)
             {

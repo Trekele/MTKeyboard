@@ -87,9 +87,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Corsair.cs" />
+    <Compile Include="InfoUpdate.cs" />
     <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Result.cs" />
+    <Compile Include="RocketLeagueLib.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
