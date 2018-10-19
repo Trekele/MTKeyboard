@@ -170,14 +170,17 @@ namespace MTKeyboardPlugin
 
         public void Initialize(Action<object> callback, bool runWithoutKeyboard = false)
         {
-            if (!CueSDK.IsInitialized)
+            if (!runWithoutKeyboard)
             {
-                CueSDK.Initialize();
-            }
+                if (!CueSDK.IsInitialized)
+                {
+                    CueSDK.Initialize();
+                }
 
-            RocketLeagueLib.keyboard = CueSDK.KeyboardSDK;
-            RocketLeagueLib.keyboard.Brush = (SolidColorBrush)Color.Transparent;
-            RocketLeagueLib.runWithoutKeyboard = runWithoutKeyboard;
+                RocketLeagueLib.keyboard = CueSDK.KeyboardSDK;
+                RocketLeagueLib.keyboard.Brush = (SolidColorBrush)Color.Transparent;
+                RocketLeagueLib.runWithoutKeyboard = runWithoutKeyboard;
+            }
 
             if (callback == null)
             {

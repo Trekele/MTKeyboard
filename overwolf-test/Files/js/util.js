@@ -26,6 +26,7 @@ function gameLaunched(gameInfoResult) {
 }
 
 function gameRunning(gameInfo) {
+    console.log("gameRunning: " + gameInfo);
     if (!gameInfo) {
         return false;
     }

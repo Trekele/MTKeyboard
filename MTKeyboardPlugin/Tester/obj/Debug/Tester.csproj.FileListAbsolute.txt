@@ -52,3 +52,17 @@ C:\Users\Matt\Desktop\projects\MTKeyboard\MTKeyboardPlugin\Tester\obj\Debug\Test
 C:\Users\Matt\Desktop\projects\MTKeyboard\MTKeyboardPlugin\Tester\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Matt\Desktop\projects\MTKeyboard\MTKeyboardPlugin\Tester\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Matt\Desktop\projects\MTKeyboard\MTKeyboardPlugin\Tester\obj\Debug\Tester.csprojResolveAssemblyReference.cache
+C:\Users\Trekele\Documents\Dev\MTKeyboard\MTKeyboardPlugin\Tester\bin\Debug\Tester.exe.config
+C:\Users\Trekele\Documents\Dev\MTKeyboard\MTKeyboardPlugin\Tester\bin\Debug\Tester.exe
+C:\Users\Trekele\Documents\Dev\MTKeyboard\MTKeyboardPlugin\Tester\bin\Debug\Tester.pdb
+C:\Users\Trekele\Documents\Dev\MTKeyboard\MTKeyboardPlugin\Tester\bin\Debug\MTKeyboardPlugin.dll
+C:\Users\Trekele\Documents\Dev\MTKeyboard\MTKeyboardPlugin\Tester\bin\Debug\CUE.NET.dll
+C:\Users\Trekele\Documents\Dev\MTKeyboard\MTKeyboardPlugin\Tester\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Trekele\Documents\Dev\MTKeyboard\MTKeyboardPlugin\Tester\bin\Debug\MTKeyboardPlugin.pdb
+C:\Users\Trekele\Documents\Dev\MTKeyboard\MTKeyboardPlugin\Tester\bin\Debug\CUE.NET.xml
+C:\Users\Trekele\Documents\Dev\MTKeyboard\MTKeyboardPlugin\Tester\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Trekele\Documents\Dev\MTKeyboard\MTKeyboardPlugin\Tester\obj\Debug\Tester.csprojAssemblyReference.cache
+C:\Users\Trekele\Documents\Dev\MTKeyboard\MTKeyboardPlugin\Tester\obj\Debug\Tester.csproj.CoreCompileInputs.cache
+C:\Users\Trekele\Documents\Dev\MTKeyboard\MTKeyboardPlugin\Tester\obj\Debug\Tester.csproj.CopyComplete
+C:\Users\Trekele\Documents\Dev\MTKeyboard\MTKeyboardPlugin\Tester\obj\Debug\Tester.exe
+C:\Users\Trekele\Documents\Dev\MTKeyboard\MTKeyboardPlugin\Tester\obj\Debug\Tester.pdb

@@ -40,3 +40,9 @@ C:\Users\Matt\Desktop\projects\MTKeyboard\MTKeyboardPlugin\MTKeyboardPlugin\obj\
 C:\Users\Matt\Desktop\projects\MTKeyboard\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.csproj.CopyComplete
 C:\Users\Matt\Desktop\projects\MTKeyboard\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.dll
 C:\Users\Matt\Desktop\projects\MTKeyboard\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.pdb
+C:\Users\Trekele\Documents\Dev\MTKeyboard\overwolf-test\MTKeyboardPlugin.dll
+C:\Users\Trekele\Documents\Dev\MTKeyboard\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.csprojAssemblyReference.cache
+C:\Users\Trekele\Documents\Dev\MTKeyboard\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.csproj.CoreCompileInputs.cache
+C:\Users\Trekele\Documents\Dev\MTKeyboard\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.csproj.CopyComplete
+C:\Users\Trekele\Documents\Dev\MTKeyboard\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.dll
+C:\Users\Trekele\Documents\Dev\MTKeyboard\MTKeyboardPlugin\MTKeyboardPlugin\obj\Debug\MTKeyboardPlugin.pdb
